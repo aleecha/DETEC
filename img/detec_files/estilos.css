@@ -1,0 +1,275 @@
+*{margin:0;padding: 0; }
+html{
+	margin: 0% 5% ;
+	
+	width: 90%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	
+}
+#header .iso{	
+	margin-right: 3%;
+	float:right;
+	width: 6%;
+	height: 0%;
+	}
+#header {
+	width: 102.5%;
+	background-color: white;
+position: sticky;
+z-index: 10;
+top: 0px;
+
+}	
+	
+	
+
+#header .logo{
+	float: left;
+	margin-left: 10%;
+	margin-top: 8px;
+	margin-bottom: 1%;
+	position: sticky;
+	top: 0;
+	background-color: rgba(255,255,255,0.5);
+}
+
+#header .principal{
+	
+	
+	
+	margin-right: 0%;
+	font-weight: 700;
+	font-size: 13px;
+	font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
+	float: left;
+	list-style-type: none;
+	text-align: right;
+	padding: 2%;
+}
+
+
+
+#header .principal a{
+	
+	background-color:white;
+				color: black;
+				text-decoration: none;
+				padding: 25px 10px;
+				margin-top: 0px;
+		
+		}
+		#header .principal a:hover{
+			border-bottom: 3px solid rgb(20, 90, 219);
+			border-bottom-left-radius: 2px 3px ;
+			border-bottom-right-radius: 2px 2px ;
+		}
+
+
+
+.img{
+    width: 100%;
+}
+	/*Pseudo-clases o Pseudo-Elementos, se aplican con :
+			#nav-list li a:hover{
+				background: white;
+				color: salmon;
+				border-top: 2px solid salmon;
+			}
+			#nav-list li a:active{
+				transform:translateY(5px)
+			}*/
+
+
+
+
+#PORTADA{
+	height: 400px;
+	width: 102%;
+	background-image: url("../pagina detec/img/slide02.jpg");
+	
+}
+#PORTADA h2{
+	position: absolute;
+	top: 20%;
+	left: 30%;
+	z-index: 1;
+margin-bottom: 10%;
+    color: #fff;
+    font-size: 72px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-shadow:  #000000 0px 5px 5px;
+}
+
+
+#PORTADA p{
+	margin-top: 2%;
+	font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
+    font-size: 30px;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	z-index: 1;
+}
+
+
+
+
+
+#somos {
+padding-top: 4%;
+}
+
+
+#somos .texto{
+	
+	display: inline-block;
+	padding: 10px 0px;
+
+}
+
+
+.texto h3::after{
+	transform: translateY(-35px);
+	border-top: 3px solid #006db7;
+	/*position: absolute;*/
+    display: block;
+    content: "";
+    width: 40px;
+	height: 3px;
+	bottom: 70px;
+}
+    
+	
+
+
+
+#somos .parrafo p{ 
+	width: 48%;
+	margin-bottom: 10px;
+
+}
+
+.fotopi{
+	float: right;
+	 
+	transform: translateX(100%);
+	transform: translatey(-100%);
+	/*
+	padding:0% 2%;
+	position: absolute;
+	top:88%;
+	right:3%;*/
+width: 46%;
+}
+
+.fotobajo .img{
+	
+	width: 280.5px;
+	height: 151.38px;
+	
+	
+			
+ }
+.fotobajo{
+	width: 100%;
+	object-fit: cover;
+	transform: translateY(-370px);
+	display:inline-flex;
+	
+	
+}
+
+
+.fotobajo .ima2{
+	transform: translateX(0px);
+	
+}
+.fotobajo .ima3{
+	transform: translateX(20px);
+	
+}
+.fotobajo .ima4{
+transform: translateX(18px);
+	
+}
+
+#eventos{
+	width: 102%;
+	background-image: url("../pagina detec/img/parallax01.jpg");
+	height: 500px;
+}
+
+
+#wasap{
+	width: 102%;
+	background-image:url("../pagina detec/img/parallax02.jpg");
+
+}
+#wasap h2{
+	text-decoration: bolder;
+	margin-top: 0%;
+	color: white;
+	font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
+	font-size: 32px;
+	line-height: 50px;
+	text-align: center;
+	padding-top: 12%;
+}
+
+#wasap .wasa{
+	box-sizing: border-box;
+	margin-left: 23%;
+	margin-right:40% ;
+padding: 5%;
+	width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#secc-4 {
+	background: lightblue;
+}
+#secc-6 {
+	background: red;
+}
+/*section{*/
+#secc-1,#secc-2,#secc-3,#secc-4,#secc-5,#secc-6{
+	padding-top:50px;
+	height: 400px;
+	outline: 1px solid red;
+}
+
+
+/*Anidaciones*/
+
+#secc-1 a{
+	font-weight: bolder;
+	font-size: 2rem;
+}
+
+#secc-1>div>article>p>a{
+	font-weight: bolder;
+	font-size: 2rem;
+}
